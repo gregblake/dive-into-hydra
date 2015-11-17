@@ -1,4 +1,4 @@
-class Book < ActiveRecord::Base
+class Book < ActiveFedora::Base
   property :title, predicate: ::RDF::DC.title, multiple: false
   property :author, predicate: ::RDF::DC.creator, multiple: false
 end
