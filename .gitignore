@@ -17,3 +17,4 @@
 /tmp
 # Ignore jetty directory (from hydra-jetty)
 /jetty
+/jetty/*
