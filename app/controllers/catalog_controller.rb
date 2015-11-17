@@ -12,9 +12,10 @@ class CatalogController < ApplicationController
 
   configure_blacklight do |config|
     config.search_builder_class = Hydra::SearchBuilder
-    config.default_solr_params = {
+    config.default_solr_params = { 
+      :qf => 'title_tesim author_tesim',
       :qt => 'search',
-      :rows => 10
+      :rows => 10 
     }
 
     # solr field configuration for search results/index views
