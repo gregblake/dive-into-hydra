@@ -3,7 +3,7 @@ class Book < ActiveFedora::Base
     index.as :stored_searchable
   end
 
-  property :author, predicate: ::RDF::DC.creator, multiple: false do |index|
+  property :author, predicate: ::RDF::DC.creator, multiple: true do |index|
     index.as :stored_searchable
   end
 
