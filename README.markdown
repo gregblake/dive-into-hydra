@@ -1,10 +1,10 @@
-== Dive Into Hydra
+# Dive Into Hydra
 
 This is the app I created while following along with the [Dive Into Hydra](https://github.com/projecthydra/hydra/wiki/Dive-into-Hydra) tutorial.
 
-# Here's an overview of this tutorial:
+## Here's an overview of this tutorial:
 
-# Goals
+### Goals
 * Create a working Hydra Head
 * Get development instances of Solr & Fedora installed and running
 * Start & Stop the development instance of the Application
@@ -14,7 +14,7 @@ This is the app I created while following along with the [Dive Into Hydra](https
 * Modify how metadata is indexed in Solr
 * Start Using Git to Track Code Changes
 
-# Steps/Lessons
+### Steps/Lessons
 1. [[Lesson - Generate a Rails Application]]
 1. [[Lesson - Add the Hydra Dependencies]]
 1. [[Lesson - Install hydra-jetty]]
@@ -23,7 +23,7 @@ This is the app I created while following along with the [Dive Into Hydra](https
 1. [[Lesson - Build a Codex model with XML]]
 1. [[Lesson - Make Blacklight Return Search Results]]
 
-## Bonus
+### Bonus
 You've completed the main tutorial, the following lessons can be completed in any order based on your interests:  
 
 1. [[Lesson - Define Relationships Between Objects]]  
